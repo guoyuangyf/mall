@@ -31,6 +31,7 @@ public class EsProductController {
     @ResponseBody
     public CommonResult<Integer> importAllList() {
         int count = esProductService.importAll();
+        esProductService.importAll();
         return CommonResult.success(count);
     }
 
