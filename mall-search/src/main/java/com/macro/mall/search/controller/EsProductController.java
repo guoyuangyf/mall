@@ -58,6 +58,9 @@ public class EsProductController {
         if (esProduct != null) {
             return CommonResult.success(esProduct);
         } else {
+
+
+
             return CommonResult.failed();
         }
     }
